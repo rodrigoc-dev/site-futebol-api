@@ -1,0 +1,97 @@
+/* Importação da fonte Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilo geral do corpo */
+body {
+    font-family: 'Roboto', sans-serif; /* Fonte mais moderna */
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilo do logo no cabeçalho */
+header .logo {
+    width: 60px; /* Aumentar o tamanho da logo */
+    height: auto;
+}
+
+/* Estilo do título do site no cabeçalho */
+header .site-title {
+    font-size: 28px; /* Aumentar o tamanho da fonte */
+    color: white;
+    margin: 0;
+    font-family: 'Roboto', sans-serif; /* Fonte mais moderna */
+}
+
+/* Estilo do container principal */
+.container {
+    padding: 20px;
+    flex: 1;
+}
+
+/* Estilo dos títulos */
+h1, h2 {
+    color: #333;
+    font-weight: 700; /* Negrito para títulos */
+}
+
+/* Estilo das listas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilo dos itens da lista */
+ul li {
+    background: #fff;
+    margin: 2px 0;
+    padding: 2px; /* Aumentar o padding */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); /* Adicionar sombra */
+}
+
+/* Estilo dos links dentro dos itens da lista */
+.list-group-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilo dos itens da lista de grupo */
+.list-group-item {
+    background-color: #343a40; /* Cor escura para os botões */
+    border-color: #343a40;
+}
+
+/* Estilo dos itens da lista de grupo ao passar o mouse */
+.list-group-item:hover {
+    background-color: #495057; /* Cor um pouco mais clara ao passar o mouse */
+}
+
+/* Estilo dos links na barra de navegação */
+.navbar-nav .nav-item .nav-link {
+    color: #fff !important;
+    background-color: #343a40; /* Cor escura para os botões do cabeçalho */
+    padding: 5px 15px; /* Aumentar o padding */
+    border-radius: 10px;
+    margin-right: 5px; /* Aumentar o espaçamento entre os itens */
+}
+
+/* Estilo dos links na barra de navegação ao passar o mouse */
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #495057; /* Cor um pouco mais clara ao passar o mouse */
+    color: #fff !important;
+    text-decoration: none;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    margin-top: auto;
+    text-align: center; /* Centralizar o texto */
+}
